@@ -33,8 +33,22 @@
                 android:id="@+id/planet_img_info"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:elevation="40dp"
+                android:elevation="10dp"
                 android:src="@drawable/ic_earth"
+                />
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBar"
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                android:layout_gravity="center"
+                app:cpb_background_progressbar_color="#b6bbd8"
+                app:cpb_background_progressbar_width="5dp"
+                app:cpb_progress_direction="to_right"
+                app:cpb_progressbar_color="#3f51b5"
+                app:cpb_progressbar_width="10dp"
+                app:cpb_round_border="false"
+                app:cpb_progress="10"
+                android:elevation="50dp"
                 />
 
         </androidx.cardview.widget.CardView>
