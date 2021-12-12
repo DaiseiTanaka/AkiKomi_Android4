@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 //            setProgressWithAnimation(65f, 1000) // =1s
 //
 
-//            // Set Progress Max
+//            // Set Progress MAX
 //            progressMax = 100f
 //
 //            // Other
