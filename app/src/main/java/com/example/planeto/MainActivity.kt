@@ -6,6 +6,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mikhaellopez.circularprogressbar.CircularProgressBar
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.view.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,21 +17,5 @@ class MainActivity : AppCompatActivity() {
         my_recycler.adapter=Adapter(setData.SetPlanets())
         my_recycler.layoutManager=LinearLayoutManager(this)
 
-        val circularProgressBar = findViewById<CircularProgressBar>(R.id.circularProgressBar)
-//        circularProgressBar.apply {
-//            // Set Progress
-//            progress = 65f
-//            // or with animation
-//            setProgressWithAnimation(65f, 1000) // =1s
-//
-
-//            // Set Progress Max
-//            progressMax = 100f
-//
-//            // Other
-//            roundBorder = true
-//            startAngle = 180f
-//            progressDirection = CircularProgressBar.ProgressDirection.TO_RIGHT
-//        }
     }
 }

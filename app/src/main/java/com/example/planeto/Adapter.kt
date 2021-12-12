@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.mikhaellopez.circularprogressbar.CircularProgressBar
 import kotlinx.android.synthetic.main.activity_planet_detail.view.*
 import kotlinx.android.synthetic.main.view.view.*
 
@@ -28,6 +29,7 @@ class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.myVie
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
         var dummyImage: Int? = null
         var dummyImage2: Int? = null
+
         holder.itemView.setOnClickListener{
             val intent= Intent(holder.itemView.context,PlanetDetail::class.java)
             intent.putExtra("planet",planet[position])

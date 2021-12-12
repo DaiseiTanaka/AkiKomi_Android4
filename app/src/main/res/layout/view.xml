@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:elevation="10dp"
-            android:src="@drawable/ic_earth" />
+            android:src="@drawable/ic_advanced" />
         <com.mikhaellopez.circularprogressbar.CircularProgressBar
             android:id="@+id/circularProgressBar"
             android:layout_width="120dp"
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Earth"
+                    android:text="Advanced Hall"
                     android:textColor="@color/cardview_dark_background"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-7dp"
                 android:fontFamily="@font/poppins_regular"
-                android:text="Milkyway Galaxy"
+                android:text="South Building"
                 android:textColor="@color/teal_700"
                 android:textSize="12sp" />
 
@@ -110,7 +110,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="2dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="54.6m km"
+                    android:text="1st floor"
                     android:textColor="@color/teal_700"
                     android:textSize="12sp"
                     />
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
                     android:fontFamily="@font/poppins_regular"
-                    android:text="3.711 m/ss"
+                    android:text="168 people"
                     android:textColor="@color/teal_700"
                     android:textSize="12sp"
                     />

@@ -8,7 +8,6 @@
     android:orientation="vertical"
     tools:context=".PlanetDetail">
 
-
     <ImageView
         android:id="@+id/back_img_info"
         android:layout_width="match_parent"
@@ -183,7 +182,7 @@
                     android:fontFamily="@font/poppins_regular"
                     android:letterSpacing="0.1"
                     android:lineSpacingExtra="1dp"
-                    android:text="Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the Red Planet."
+                    android:text="This room can be freely used by students and faculty members. Many people have lunch during lunch break and use this room as a study room after school. There are many desks and chairs that can be used freely. At the beginning of each semester, this room is used as medical examinations and selling textbooks. In addition, there are two large windows, from which you can overlook the garden, creating a space with a sense of openness."
                     android:textColor="@color/cardview_dark_background"
                     android:textSize="13sp"/>
             </LinearLayout>

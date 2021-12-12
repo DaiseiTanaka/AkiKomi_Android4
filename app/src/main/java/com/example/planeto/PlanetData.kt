@@ -9,7 +9,8 @@ data class PlanetData(
     val building:String?,
     val floor:String?,
     val capacity:String?,
-    val overview:String?
+    val overview:String?,
+    val topic:String?
 ):Parcelable{
     constructor(parcel: Parcel) : this(
         parcel.readValue(Int::class.java.classLoader) as? Int,
@@ -17,7 +18,9 @@ data class PlanetData(
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
+        parcel.readString(),
         parcel.readString()
+
     ) {
     }
 
@@ -28,6 +31,7 @@ data class PlanetData(
         parcel.writeString(floor)
         parcel.writeString(capacity)
         parcel.writeString(overview)
+        parcel.writeString(topic)
     }
 
     override fun describeContents(): Int {
