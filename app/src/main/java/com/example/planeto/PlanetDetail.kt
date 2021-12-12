@@ -9,6 +9,7 @@ import kotlinx.android.synthetic.main.activity_planet_detail.*
 class PlanetDetail : AppCompatActivity() {
     private lateinit var obj:PlanetData
     private var planetImg:Int?=null
+    private var backImg:Int?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_planet_detail)
@@ -17,22 +18,23 @@ class PlanetDetail : AppCompatActivity() {
 
         obj= intent.getParcelableExtra("planet")!!
         planetImg=intent.getIntExtra("planetImage",-1)
-        setData(obj, planetImg!!)
+        backImg=intent.getIntExtra("back_planetImage",-1)
+        setData(obj, planetImg!!, backImg!!)
 
-        button_info.setOnClickListener{
-            val intent=Intent(this,finalActivity::class.java)
-            startActivity(intent)
-        }
+//        button_info.setOnClickListener{
+//            val intent=Intent(this,finalActivity::class.java)
+//            startActivity(intent)
+//        }
     }
-    private fun setData(obj:PlanetData,planetImg:Int)
+    private fun setData(obj: PlanetData, planetImg: Int, backImg: Int)
     {
         title_info.text=obj.title
-        distance_info.text=obj.distance+"m km"
-        gravity_info.text=obj.gravity+" m/ss"
+        floor_info.text=obj.floor+" floor"
+        capacity_info.text=obj.capacity+" people"
         overview_info.text=obj.overview
-        galaxy_info.text=obj.galaxy
+        building_info.text=obj.building
         planet_img_info.setImageResource(planetImg)
-
+        back_img_info.setImageResource(backImg)
 
     }
 }

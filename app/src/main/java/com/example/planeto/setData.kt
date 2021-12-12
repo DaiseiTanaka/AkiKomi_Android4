@@ -6,101 +6,131 @@ object setData {
         Planetlist.add(
             PlanetData(
                 1,
-                "Mars",
-                "Milkyway Galaxy",
-                "227.9",
-                "3.721",
-                "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".\nThe latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.\nMars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth."
+                "Library",
+                "South Building",
+                "4th",
+                "70",
+                "This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on the first floor and various types of tables and chairs. On the first floor you are allowed to work on tasks while talking to your friends. On the 2nd floor, there are many engineering books and you can borrow them freely if you have a student ID card. However, talking is prohibited on the 2nd floor."
             )
         )
         Planetlist.add(
             PlanetData(
                 2,
-                "Moon",
-                "Milkyway Galaxy",
-                "150.0",
-                "1.62",
-                "The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia), it is the largest natural satellite in the Solar System relative to the size of its planet, the fifth largest satellite in the Solar System overall, and is larger than any dwarf planet.\nOrbiting Earth at an average distance of 384,400 km (238,900 mi), or about 30 times Earth's diameter, its gravitational influence slightly lengthens Earth's day and is the main driver of Earth's tides. The Moon is classified as a planetary-mass object and a differentiated rocky body, and lacks any significant atmosphere, hydrosphere, or magnetic field.\nIts surface gravity is about one-sixth of Earth's (0.1654 g); Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density."
+                "Learning Commons1",
+                "South Building",
+                "2nd",
+                "108",
+                "There are in total of four Learning Commons in this South Building. There are desks and chairs that can be used freely by students. This is the place that is designed for interaction with students from other grades and also graduate students. You can also use the air conditioner and whiteboard freely for meetings and self-study."
             )
         )
         Planetlist.add(
             PlanetData(
                 3,
-                "Neptune",
-                "Milkyway Galaxy",
-                "4497.1",
-                "11.15",
-                "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet.\n It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 AU (4.5 billion km; 2.8 billion mi).\nIt is named after the Roman god of the sea and has the astronomical symbol ♆, a stylised version of the god Neptune's trident."
+                "Learning Commons2",
+                "South Building",
+                "2nd",
+                "82",
+                "There are in total of four Learning Commons in this South Building. There are desks and chairs that can be used freely by students. This is the place that is designed for interaction with students from other grades and also graduate students. You can also use the air conditioner and whiteboard freely for meetings and self-study."
             )
         )
         Planetlist.add(
             PlanetData(
                 4,
-                "Earth",
-                "Milkyway Galaxy",
-                "149.6",
-                "9.807",
-                "Earth is the third planet from the Sun and the only astronomical object known to harbor and support life. About 29.2% of Earth's surface is land consisting of continents and islands. The remaining 70.8% is covered with water, mostly by oceans, seas, gulfs, and other salt-water bodies, but also by lakes, rivers, and other freshwater, which together constitute the hydrosphere.\n Much of Earth's polar regions are covered in ice. Earth's outer layer is divided into several rigid tectonic plates that migrate across the surface over many millions of years, while its interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convective mantle that drives plate tectonics."
+                "Learning Commons3",
+                "South Building",
+                "3rd",
+                "59",
+                "There are in total of four Learning Commons in this South Building. There are desks and chairs that can be used freely by students. This is the place that is designed for interaction with students from other grades and also graduate students. You can also use the air conditioner and whiteboard freely for meetings and self-study."
             )
         )
         Planetlist.add(
             PlanetData(
                 5,
-                "Venus",
-                "Milkyway Galaxy",
-                "108.2",
-                "8.87",
-                "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be, on rare occasions, visible to the naked eye in broad daylight.\n Venus lies within Earth's orbit, and so never appears to venture far from the Sun, either setting in the west just after dusk or rising in the east a little while before dawn. Venus orbits the Sun every 224.7 Earth days.\n With a rotation period of 243 Earth days, it takes significantly longer to rotate about its axis than any other planet in the Solar System, and does so in the opposite direction to all but Uranus (meaning the Sun rises in the west and sets in the east). Venus does not have any moons, a distinction it shares only with Mercury among the planets in the Solar System."
+                "Learning Commons4",
+                "South Building",
+                "4th",
+                "116",
+                "There are in total of four Learning Commons in this South Building. There are desks and chairs that can be used freely by students. This is the place that is designed for interaction with students from other grades and also graduate students. You can also use the air conditioner and whiteboard freely for meetings and self-study."
             )
         )
         Planetlist.add(
             PlanetData(
                 6,
-                "Uranus",
-                "Milkyway Galaxy",
-                "2871.0",
-                "8.87",
-                "Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus, who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn).\nIt has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as \"ice giants\" to distinguish them from the other gas giants.\nUranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more \"ices\" such as water, ammonia, and methane, along with traces of other hydrocarbons. It has the coldest planetary atmosphere in the Solar System."
+                "S306",
+                "South Building",
+                "3rd",
+                "216",
+                "This room is usually used for students in the Faculty of Engineering. There are 3 screens so you can take the same lesson simultaneoulsy as the next room. After school, students are free to remain and study by themselves. The seats are not fixed and each student sits freely every morning. You are allowed to use airconditioner and adjust the temperature."
             )
         )
         Planetlist.add(
             PlanetData(
                 7,
-                "Sun",
-                "Milkyway Galaxy",
-                "0",
-                "274.0",
-                "The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as visible light and infrared radiation. It is by far the most important source of energy for life on Earth. Its diameter is about 1.39 million kilometres (864,000 miles), or 109 times that of Earth. Its mass is about 330,000 times that of Earth; it accounts for about 99.86% of the total mass of the Solar System.\nRoughly three quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon and iron."
+                "S307",
+                "South Building",
+                "3rd",
+                "216",
+                "This room is usually used for students in the Faculty of Engineering. There are 3 screens so you can take the same lesson simultaneoulsy as the next room. After school, students are free to remain and study by themselves. The seats are not fixed and each student sits freely every morning. You are allowed to use airconditioner and adjust the temperature."
             )
         )
         Planetlist.add(
             PlanetData(
                 8,
-                "Saturn",
-                "Milkyway Galaxy",
-                "1427.0",
-                "10.44",
-                "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth.\n It only has one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive. Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (♄) represents the god's sickle.\n The Romans named the seventh day of the week Saturday, Sāturni diēs (\"Saturn's Day\") no later than the 2nd century for the planet Saturn."
+                "S311",
+                "South Building",
+                "3rd",
+                "108",
+                "This room is usually used for students in the Faculty of Engineering. There are 3 screens so you can take the same lesson simultaneoulsy as the next room. After school, students are free to remain and study by themselves. The seats are not fixed and each student sits freely every morning. You are allowed to use airconditioner and adjust the temperature."
             )
         )
         Planetlist.add(
             PlanetData(
                 9,
-                "Jupiter",
-                "Milkyway Galaxy",
-                "778.3",
-                "24.79",
-                "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass (more than) two and a half times that of all the other planets in the Solar System combined, but (a little) less than one-thousandth the mass of the Sun.\nJupiter is the third-brightest natural object in the Earth's night sky after the Moon and Venus. It has been observed since pre-historic times and is named after the Roman god Jupiter, the king of the gods, because of its massive size"
+                "S312",
+                "South Building",
+                "3rd",
+                "108",
+                "This room is usually used for students in the Faculty of Engineering. There are 3 screens so you can take the same lesson simultaneoulsy as the next room. After school, students are free to remain and study by themselves. The seats are not fixed and each student sits freely every morning. You are allowed to use airconditioner and adjust the temperature."
             )
         )
         Planetlist.add(
             PlanetData(
                 10,
-                "Mercury",
-                "Milkyway Galaxy",
-                "57.9",
-                "3.7",
-                "Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς).\nLike Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°.\nThis proximity to the Sun means the planet can only be seen near the western horizon after sunset or the eastern horizon before sunrise, usually in twilight. At this time, it may appear as a bright star-like object but is often far more difficult to observe than Venus.\nFrom Earth, the planet telescopically displays the complete range of phases, similar to Venus and the Moon, which recurs over its synodic period of approximately 116 days."
+                "Advanced Hall",
+                "South Building",
+                "1st",
+                "168",
+                "This room can be freely used by students and faculty members. Many people have lunch during lunch break and use this room as a study room after school. There are many desks and chairs that can be used freely. At the beginning of each semester, this room is used as medical examinations and selling textbooks. In addition, there are two large windows, from which you can overlook the garden, creating a space with a sense of openness."
+            )
+        )
+        Planetlist.add(
+            PlanetData(
+                11,
+                "Sagano Hall",
+                "South Building",
+                "1st",
+                "360",
+                "This is a hall where meetings such as events and orientations are held. Since one of the wall is made of window glass, you can overlook the courtyard and feel a sense of openness. Additionaly, this hall is the largest hall in the South Building and can accommodate up to 360 people. Also, if the chairs and desks are removed, more than 500 people can enter the room."
+            )
+        )
+        Planetlist.add(
+            PlanetData(
+                12,
+                "Science Praza",
+                "South Building",
+                "1st",
+                "40",
+                "Many of the latest machines and 3D printers are installed in this machine workshop. Some experiments and classes dealing with machines are conducted in this room. This workshop holds an annual 3D printer competition. In addition, the 3D printer in this workshop can be used by anyone who has permission to it. Also it is used for many cornerstone projects. To use this workshop, you need to attend the workshop orientation. If you are curious, please contact the student center or the teacher at the workshop."
+            )
+        )
+        Planetlist.add(
+            PlanetData(
+                13,
+                "Electronic Workshop",
+                "South Building",
+                "4th",
+                "25",
+                "This electronic workshop is equipped with many of the latest equipment. It can be used to conducts experiments and classes related to electricity. In addition, the walls on the south and north sides are all covered with glass, creating a very open space. In addition, you can go directly to Learning Commons from this electronic workshop where you can have meals and meetings. It is shared by several Cornerstone projects and used by many project members after school as well as holidays."
             )
         )
         return Planetlist

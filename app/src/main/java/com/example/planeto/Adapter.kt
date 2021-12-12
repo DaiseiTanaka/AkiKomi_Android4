@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_planet_detail.view.*
 import kotlinx.android.synthetic.main.view.view.*
 
 class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.myViewHolder>() {
@@ -12,9 +13,9 @@ class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.myVie
     class myViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var title = view.title
         var planetimg = view.planet_img
-        var galaxy = view.galaxy
-        var distance = view.distance
-        var gravity = view.gravity
+        var building = view.building
+        var floor = view.floor
+        var capacity = view.capacity
 
     }
 
@@ -26,52 +27,75 @@ class Adapter(var planet: List<PlanetData>) : RecyclerView.Adapter<Adapter.myVie
 
     override fun onBindViewHolder(holder: myViewHolder, position: Int) {
         var dummyImage: Int? = null
+        var dummyImage2: Int? = null
         holder.itemView.setOnClickListener{
             val intent= Intent(holder.itemView.context,PlanetDetail::class.java)
             intent.putExtra("planet",planet[position])
             intent.putExtra("planetImage",dummyImage)
+            intent.putExtra("back_planetImage",dummyImage2)
             holder.itemView.context.startActivity(intent)
 
         }
         holder.title.text = planet[position].title
-        holder.galaxy.text = planet[position].galaxy
-        holder.distance.text = planet[position].distance + " m km"
-        holder.gravity.text = planet[position].title + " m/ss"
+        holder.building.text = planet[position].building
+        holder.floor.text = planet[position].floor + " floor"
+        holder.capacity.text = planet[position].capacity + " people"
 
         when (planet[position].title!!.toLowerCase()) {
-            "mars" -> {
-                dummyImage = R.drawable.ic_mars
+            "library" -> {
+                dummyImage = R.drawable.ic_slibrary
+                dummyImage2 = R.drawable.bg_slibrary
             }
-            "neptune" -> {
-                dummyImage = R.drawable.ic_neptune
+            "learning commons1" -> {
+                dummyImage = R.drawable.ic_lc1
+                dummyImage2 = R.drawable.bg_lc1
             }
-            "earth" -> {
-                dummyImage = R.drawable.ic_earth
+            "learning commons2" -> {
+                dummyImage = R.drawable.ic_lc2
+                dummyImage2 = R.drawable.bg_lc2
             }
-            "moon" -> {
-                dummyImage = R.drawable.ic_moon
+            "learning commons3" -> {
+                dummyImage = R.drawable.ic_lc3
+                dummyImage2 = R.drawable.bg_lc3
             }
-            "venus" -> {
-                dummyImage = R.drawable.ic_venus
+            "learning commons4" -> {
+                dummyImage = R.drawable.ic_lc4
+                dummyImage2 = R.drawable.bg_lc4
             }
-            "jupiter" -> {
-                dummyImage = R.drawable.ic_jupiter
+            "s306" -> {
+                dummyImage = R.drawable.ic_s306
+                dummyImage2 = R.drawable.bg_s306
             }
-            "saturn" -> {
-                dummyImage = R.drawable.ic_saturn
+            "s307" -> {
+                dummyImage = R.drawable.ic_s307
+                dummyImage2 = R.drawable.bg_s307
             }
-            "uranus" -> {
-                dummyImage = R.drawable.ic_uranus
+            "s311" -> {
+                dummyImage = R.drawable.ic_s311
+                dummyImage2 = R.drawable.bg_s311
             }
-            "mercury" -> {
-                dummyImage = R.drawable.ic_mercury
+            "s312" -> {
+                dummyImage = R.drawable.ic_s312
+                dummyImage2 = R.drawable.bg_s312
             }
-            "sun" -> {
-                dummyImage = R.drawable.ic_sun
+            "advanced hall" -> {
+                dummyImage = R.drawable.ic_advanced
+                dummyImage2 = R.drawable.bg_advanced
+            }
+            "sagano hall" -> {
+                dummyImage = R.drawable.ic_sagano
+                dummyImage2 = R.drawable.bg_sagano
+            }
+            "science praza" -> {
+                dummyImage = R.drawable.ic_mws
+                dummyImage2 = R.drawable.bg_mws
+            }
+            "electronic workshop" -> {
+                dummyImage = R.drawable.ic_ews
+                dummyImage2 = R.drawable.bg_ews
             }
         }
         holder.planetimg.setImageResource(dummyImage!!)
-
 
     }
 
