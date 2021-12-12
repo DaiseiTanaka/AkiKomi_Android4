@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 //
 //            // Set Progress Max
 //            progressMax = 100f
-        
+
 //
 //            // Other
 //            roundBorder = true
