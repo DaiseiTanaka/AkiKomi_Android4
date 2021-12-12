@@ -17,20 +17,20 @@ class MainActivity : AppCompatActivity() {
         my_recycler.layoutManager=LinearLayoutManager(this)
 
         val circularProgressBar = findViewById<CircularProgressBar>(R.id.circularProgressBar)
-//        circularProgressBar.apply {
-//            // Set Progress
-//            progress = 65f
-//            // or with animation
-//            setProgressWithAnimation(65f, 1000) // =1s
-//
+        circularProgressBar.apply {
+            // Set Progress
+            progress = 65f
+            // or with animation
+            setProgressWithAnimation(65f, 1000) // =1s
 
-//            // Set Progress Max
-//            progressMax = 100f
-//
-//            // Other
-//            roundBorder = true
-//            startAngle = 180f
-//            progressDirection = CircularProgressBar.ProgressDirection.TO_RIGHT
-//        }
+
+            // Set Progress Max
+            progressMax = 100f
+
+            // Other
+            roundBorder = true
+            startAngle = 180f
+            progressDirection = CircularProgressBar.ProgressDirection.TO_RIGHT
+        }
     }
 }
