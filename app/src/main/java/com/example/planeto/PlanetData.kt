@@ -31,6 +31,7 @@ data class PlanetData(
         parcel.writeString(floor)
         parcel.writeString(capacity)
         parcel.writeString(overview)
+        
         parcel.writeString(topic)
     }
 
