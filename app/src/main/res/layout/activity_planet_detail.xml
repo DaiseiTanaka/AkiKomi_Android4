@@ -128,13 +128,10 @@
                         android:textColor="@color/teal_700"
                         android:textSize="14sp"
                         />
+
                 </LinearLayout>
 
-
-
             </LinearLayout>
-
-
 
         </androidx.cardview.widget.CardView>
     </LinearLayout>
